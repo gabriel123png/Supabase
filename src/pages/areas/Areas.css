@@ -1,0 +1,37 @@
+/* Tarjeta del formulario */
+.area-form-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* Encabezado */
+.area-form-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+  color: #00324d;
+  padding: 1.25rem;
+}
+
+/* Inputs y Textarea */
+.area-input:focus {
+  border-color: #39a900;
+  box-shadow: 0 0 0 0.25rem rgba(57, 169, 0, 0.25);
+}
+
+/* Botón principal estilo SENA */
+.btn-sena {
+  background-color: #39a900;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-sena:hover {
+  background-color: #2e8800;
+  color: #ffffff;
+}
